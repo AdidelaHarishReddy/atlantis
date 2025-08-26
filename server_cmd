@@ -1,0 +1,3 @@
+GH-TOCKEN=$1
+ docker run --name atlantis -p 4141:4141 ghcr.io/runatlantis/atlantis server --repo-allowlist=github.com/AdidelaHarishReddy/terraform.git --gh-
+user=AdidelaHarishReddy --gh-token=${GH-TOCKEN}
